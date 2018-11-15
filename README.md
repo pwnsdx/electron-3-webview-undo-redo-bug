@@ -1,6 +1,6 @@
 # Electron 3 Webview Undo/Redo Issue
 
-Calling `.undo()` or `.redo()` on a webview does not have any effect in Electron 3.
+Calling `.undo()` or `.redo()` on a webview inside a <webview> tag does not have any effect in Electron 3.
 
 ## Reproduction
 
